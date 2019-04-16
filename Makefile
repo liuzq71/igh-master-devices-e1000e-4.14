@@ -22,7 +22,7 @@ $(TARGET)-objs:= netdev-4.14-ethercat.o ethtool-4.14-ethercat.o \
 #$(TARGET)-objs += $(PWD)/../etherlabmaster-code/master/device.o $(PWD)/../etherlabmaster-code/master/module.o
  
 #specify flags for the module compilation.
-EXTRA_CFLAGS +=-g -O0
+#EXTRA_CFLAGS +=-g -O0
 EXTRA_CFLAGS +=-I$(INCDIR1) -I$(INCDIR2)
  
 build:kernel_modules
