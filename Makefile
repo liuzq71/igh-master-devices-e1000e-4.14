@@ -28,9 +28,9 @@ EXTRA_CFLAGS +=-I$(INCDIR1) -I$(INCDIR2)
 build:kernel_modules
  
 kernel_modules:
-	make -C /lib/modules/$(KVERS)/build M=$(CURDIR) INCDIR1=$(PWD) INCDIR2=$(PWD)/../etherlabmaster-code/devices modules
+	make -C /lib/modules/$(KVERS)/build M=$(CURDIR) INCDIR1=$(PWD) INCDIR2=$(PWD)/../etherlabmaster-code/devices/e1000e modules
  
 clean:
-	make -C /lib/modules/$(KVERS)/build M=$(CURDIR) INCDIR1=$(PWD) INCDIR2=$(PWD)/../etherlabmaster-code/devices clean
+	make -C /lib/modules/$(KVERS)/build M=$(CURDIR) INCDIR1=$(PWD) INCDIR2=$(PWD)/../etherlabmaster-code/devices/e1000e clean
 
 
