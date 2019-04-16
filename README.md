@@ -6,7 +6,7 @@ igh Master 在linux 4.14.x的intel e1000e驱动程序,已经在intel82574L网卡
 
 1),$make
 
-2),$sudo cp ec_e1000e.ko /lib/modules/$(shell uname -r)/ethercat/devices/
+2),$sudo cp ec_e1000e.ko /lib/modules/$(uname -r)/ethercat/devices/
 
 3),$sudo depmod
 
