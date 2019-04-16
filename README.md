@@ -11,3 +11,5 @@ igh Master 在linux 4.14.x的intel e1000e驱动程序,已经在intel82574L网卡
 3),$sudo depmod
 
 4),$sudo vim /etc/sysconfig/ethercat
+
+把 DEVICE_MODULES="" 改成: DEVICE_MODULES="e1000e"
