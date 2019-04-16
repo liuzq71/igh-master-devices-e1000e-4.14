@@ -1,4 +1,6 @@
-igh Master 在linux 4.14.x的intel e1000e驱动程序,已经在intel82574L网卡运行,
+igh Master 在linux 4.14.x的intel e1000e驱动程序,已经在intel82574L网卡运行。
+
+其它版本linux内核的也同样编译。
 
 本目录应和igh Master在同级目录。
 
